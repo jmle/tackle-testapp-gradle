@@ -74,6 +74,9 @@ dependencies {
 
     // Corporate libs
     implementation "io.konveyor.demo:configuration-utils:1.0.0"
+
+    // Other
+    implementation 'org.apache.commons:commons-math3:3.2'
 }
 
 tasks.withType(JavaCompile) {
